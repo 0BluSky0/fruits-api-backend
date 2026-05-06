@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const fruits = require("../controllers/fruits")
+const fruits = require("../controllers/fruits-controller")
 
 router.get('/', fruits.index)
 
